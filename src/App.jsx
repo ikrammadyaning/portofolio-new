@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {
   Code2, MonitorSmartphone, Database, Boxes, Smartphone, Monitor, Globe, Palette,
-  GraduationCap, Award, ExternalLink, Download, Send, AtSign, Github, Linkedin,
+  GraduationCap, Award, ExternalLink, Download, Send, AtSign, Github, Linkedin, MessageCircle,
   Share2, BadgeCheck, CheckCircle2, Briefcase, Sparkles, BookOpen,
 } from "lucide-react";
 
@@ -192,7 +192,7 @@ export default function App() {
             <p className="muted">Punya ide proyek, membutuhkan aplikasi mobile yang tangguh, atau mencari pengembang full-stack berdedikasi? Mari terhubung.</p>
           </div>
           <div className="actions">
-            <a href="mailto:email@contoh.com" className="btn primary"><AtSign size={14} /> Kirim Pesan Email</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ikrammadyaning@gmail.com" className="btn primary"><AtSign size={14} /> Kirim Pesan Email</a>
             <a href="#" className="btn ghost"><Share2 size={14} /> Bagikan Portofolio</a>
           </div>
         </div>
@@ -202,9 +202,10 @@ export default function App() {
         <div><a href="#tentang" className="brand sm"><Code2 size={14} /> Portofolio</a>
           <small>© 2026 Ikram M. Qolbu Kamil. Dibuat dengan presisi. Seluruh hak cipta dilindungi.</small></div>
         <div className="socials">
-          <a href="#"><Github size={14} /> GitHub</a>
-          <a href="#"><Linkedin size={14} /> LinkedIn</a>
-          <a href="#"><AtSign size={14} /> Email</a>
+          <a href="https://github.com/ikrammadyaning" target="_blank" rel="noopener noreferrer"><Github size={14} /> GitHub</a>
+          <a href="https://linkedin.com/in/ikram-madyaning-74b1b239b" target="_blank" rel="noopener noreferrer"><Linkedin size={14} /> LinkedIn</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ikrammadyaning@gmail.com" target="_blank" rel="noopener noreferrer"><AtSign size={14} /> Email</a>
+          <a href="https://wa.me/6285759040262" target="_blank" rel="noopener noreferrer"><MessageCircle size={14} /> WhatsApp</a>
         </div>
       </footer>
     </div>
